@@ -1,0 +1,12 @@
+return {}
+-- return {
+--   "neovim/nvim-lspconfig",
+--   ---@class PluginLspOpt
+--   opts = {
+--     servers = {
+--       gopls = {
+--         filetypes = { "go", "gomod", "gowork", "gotmpl" },
+--       },
+--     },
+--   },
+-- }
