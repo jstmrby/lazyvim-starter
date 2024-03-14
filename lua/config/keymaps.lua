@@ -13,9 +13,9 @@ map("n", "<C-d>", "<C-d>zz", { desc = "Jump half page down" })
 map("n", "<C-u>", "<C-u>zz", { desc = "Jump half page up" })
 
 -- System clipboard
-map("n", "<leader>y", '"+y', { desc = "[y]ank to system clipboard" })
-map("v", "<leader>y", '"+y', { desc = "[y]ank to system clipboard" })
-map("n", "<leader>Y", '"+Y', { desc = "[Y]ank to system clipboard" })
+map("n", "<leader>y", '"+y', { desc = "yank to system clipboard" })
+map("v", "<leader>y", '"+y', { desc = "yank to system clipboard" })
+map("n", "<leader>Y", '"+y$', { desc = "Yank to system clipboard" })
 
-map("n", "<leader>p", '"+p', { desc = "[p]aste from system clipboard" })
-map("n", "<leader>P", '"+P', { desc = "[P]aste from system clipboard" })
+map("n", "<leader>p", '"+p', { desc = "paste from system clipboard" })
+map("n", "<leader>P", '"+P', { desc = "Paste from system clipboard" })
