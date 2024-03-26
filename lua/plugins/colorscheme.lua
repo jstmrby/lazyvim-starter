@@ -1,3 +1,3 @@
 return {
-  "EdenEast/nightfox.nvim",
+  "navarasu/onedark.nvim",
 }
