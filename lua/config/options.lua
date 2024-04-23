@@ -4,3 +4,5 @@
 
 vim.opt.clipboard = ""
 vim.opt.colorcolumn = "80,120"
+
+vim.opt.scrolloff = 8
