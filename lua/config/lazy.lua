@@ -22,9 +22,20 @@ require("lazy").setup({
       import = "lazyvim.plugins",
       opts = {
         colorscheme = function()
-          require("onedark").setup({ style = "warm" })
+          require("onedark").setup({ style = "warm", transparent = true })
           require("onedark").load()
         end,
+        -- colorscheme = function()
+        --   require("tokyonight").setup({
+        --     style = "storm",
+        --     transparent = true,
+        --     styles = {
+        --       sidebars = "transparent",
+        --       -- floats = "transparent",
+        --     },
+        --   })
+        --   require("tokyonight").load()
+        -- end,
       },
     },
     -- import any extras modules here
